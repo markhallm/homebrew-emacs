@@ -1,10 +1,10 @@
-require File.expand_path("../../Homebrew/emacs_formula", __FILE__)
+require File.expand_path("../Homebrew/emacs_formula", __dir__)
 
 class Circe < EmacsFormula
   desc "Emacs IRC client"
   homepage "https://github.com/jorgenschaefer/circe"
-  url "https://github.com/jorgenschaefer/circe/archive/v2.5.tar.gz"
-  sha256 "c9d26e5aab840f41526166dc89fce5421e91c250b58620f26a2161ef0c5c1a75"
+  url "https://github.com/jorgenschaefer/circe/archive/v2.9.tar.gz"
+  sha256 "3b24adcf341f058cbacab37bca1e67d410542ec6f3ddc73da5f6988995b12a27"
   head "https://github.com/jorgenschaefer/circe.git"
 
   depends_on EmacsRequirement
